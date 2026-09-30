@@ -203,3 +203,30 @@ td:last-child {
     color: hsl(228,45%,44%);
 }
 
+/* Mobile Layout */
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+        background-color: var(--clr-bg-card);
+    }
+
+    .recipe-card {
+        max-width: 100%;
+        padding: 0 32px 32px;
+        border-radius: 0;
+    }
+
+    .hero-img {
+        width: calc(100% + 64px);
+        max-width: none;
+        margin-left: -32px;
+        border-radius: 0;
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+        line-height: 1.1;
+    }
+
+}
