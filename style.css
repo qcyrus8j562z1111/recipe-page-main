@@ -96,3 +96,25 @@ h1, h2 {
 .prep-box strong {
     font-weight: 700;
 }
+
+/* Ingredients Section */
+.ingredients {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--clr-divider);
+}
+
+/* Ingredients List ul */
+.ingredients ul {
+    padding-left: 24px;
+}
+
+/* Ingredients List li */
+.ingredients li {
+    padding-left: 16px;
+    margin-bottom: 12px;
+}
+
+/* Color Ingredients Bullets */
+.ingredients li::marker {
+    color: var(--clr-primary-heading);
+}
