@@ -118,3 +118,32 @@ h1, h2 {
 .ingredients li::marker {
     color: var(--clr-primary-heading);
 }
+
+/* Instruction Section */
+.instructions {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--clr-divider);
+}
+
+/* Instructions Ordered List */
+.instructions ol {
+    padding-left: 24px;
+}
+
+/* Instructions List Items */
+.instructions li {
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+/* Instructions List Numbers */
+.instructions li::marker {
+    color: var(--clr-primary-heading);
+    font-weight: 700;
+}
+
+/* Make step titles stand out */
+.instructions strong {
+    font-weight: 700;
+}
