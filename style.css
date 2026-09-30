@@ -13,6 +13,7 @@
 :root {
   --clr-primary-heading: hsl(14, 45%, 36%);
   --clr-primary-accent: hsl(332, 51%, 32%);
+  --clr-rose-bg: hsl(330, 100%, 98%);
   
   --clr-body-text: hsl(30, 10%, 34%);
   --clr-bg-page: hsl(30, 54%, 90%);
@@ -39,16 +40,59 @@ h1, h2 {
 
 /* Layout: Recipe Card */
 .recipe-card {
-    background-color: var(clr--bg-card);
-    max-width: 700px;
+    background-color: var(--clr-bg-card);
+    max-width: 736px;
     margin: 0 auto;
     padding: 32px;
     border-radius: 20px;
 }
 
-/* Image */
+/* Hero Image */
 .hero img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 24px;
+}
+
+/* Hero Text */
+.hero p {
+    margin-bottom: 2rem;
+}
+
+/* Prep Box */
+.prep-box {
+    background-color: var(--clr-rose-bg);
+    padding: 28px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+/* Prep Box Heading */
+.prep-box h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--clr-primary-accent);
+    margin-bottom: 16px;
+}
+
+/* Prep Box List */
+.prep-box ul {
+    padding-left: 24px;
+}
+
+/* Prep Box List Items */
+.prep-box li {
+    padding-left: 16px;
+    margin-bottom: 10px;
+}
+
+/* Prep Box Bullet Color */
+.prep-box li::marker {
+    color: var(--clr-primary-accent);
+}
+
+/* Prep Box Labels */
+.prep-box strong {
+    font-weight: 700;
 }
