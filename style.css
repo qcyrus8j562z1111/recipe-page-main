@@ -36,3 +36,19 @@ h1, h2 {
     color: var(--clr-primary-heading);
     margin-bottom: 16px;
 }
+
+/* Layout: Recipe Card */
+.recipe-card {
+    background-color: var(clr--bg-card);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 20px;
+}
+
+/* Image */
+.hero img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
