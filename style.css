@@ -1,3 +1,7 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
 /* Reset */
 * {
     margin: 0;
@@ -5,15 +9,12 @@
     box-sizing: border-box;
 }
 
-/* Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
-
-
 /* Root Variables */
 :root {
   --clr-primary-heading: hsl(14, 45%, 36%);
   --clr-primary-accent: hsl(332, 51%, 32%);
   --clr-rose-bg: hsl(330, 100%, 98%);
+  --clr-heading-dark: hsl(24, 5%, 18%);
   
   --clr-body-text: hsl(30, 10%, 34%);
   --clr-bg-page: hsl(30, 54%, 90%);
@@ -34,8 +35,15 @@ body {
 /* Headings */
 h1, h2 {
     font-family: 'Young Serif', serif;
-    color: var(--clr-primary-heading);
     margin-bottom: 16px;
+}
+
+h1 {
+    color: var(--clr-heading-dark);
+}
+
+h2 {
+    color: var(--clr-primary-heading);
 }
 
 /* Layout: Recipe Card */
@@ -183,5 +191,15 @@ td {
 td:last-child {
     color: var(--clr-primary-heading);
     font-weight: 700;
+}
+
+/* Attribution Information*/
+.attribution {
+    font-size: 0.6875rem; text-align: center;
+}
+
+
+.attribution a {
+    color: hsl(228,45%,44%);
 }
 
