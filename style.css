@@ -195,7 +195,8 @@ td:last-child {
 
 /* Attribution Information*/
 .attribution {
-    font-size: 0.6875rem; text-align: center;
+    font-size: 0.6875rem; 
+    text-align: center;
 }
 
 
@@ -216,7 +217,7 @@ td:last-child {
         border-radius: 0;
     }
 
-    .hero-img {
+    .hero img {
         width: calc(100% + 64px);
         max-width: none;
         margin-left: -32px;
