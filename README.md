@@ -32,8 +32,8 @@ The page includes:
 - Responsive desktop and mobile layouts
  
 ### Screenshot
-C:\Users\mveil\OneDrive\Desktop\Frontend-Mentor\recipe-page-main\screenshots\Screenshot 2026-09-30 181622.png
-C:\Users\mveil\OneDrive\Desktop\Frontend-Mentor\recipe-page-main\screenshots\Screenshot 2026-09-30 181647.png
+<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/9e97639d-5c3e-4b6c-b734-15c5003c3468" />
+
  
 
  
