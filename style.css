@@ -147,3 +147,41 @@ h1, h2 {
 .instructions strong {
     font-weight: 700;
 }
+
+/* Nutrition Section */
+.nutrition {
+    padding-top: 32px;
+}
+
+/* Style the description paragraph */
+.nutrition p {
+    margin-bottom: 24px;
+}
+
+/* Make the table take the full width */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Add Row Separators */
+tr {
+    border-bottom: 1px solid var(--clr-divider);
+}
+
+/* Remove border from last row */
+tr:last-child {
+    border-bottom: none;
+}
+
+/* Cell spacing */
+td {
+    padding: 16px 32px;
+}
+
+/* Make the values stand out */
+td:last-child {
+    color: var(--clr-primary-heading);
+    font-weight: 700;
+}
+
