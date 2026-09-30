@@ -32,11 +32,7 @@ The page includes:
 - Responsive desktop and mobile layouts
  
 ### Screenshot
-<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/9e97639d-5c3e-4b6c-b734-15c5003c3468" />
 
- 
-
- 
 ### Links
  
 - Solution URL: [Add Frontend Mentor solution URL here]
