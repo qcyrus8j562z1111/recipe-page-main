@@ -32,9 +32,10 @@ The page includes:
 - Responsive desktop and mobile layouts
  
 ### Screenshot
+C:\Users\mveil\OneDrive\Desktop\Frontend-Mentor\recipe-page-main\screenshots\Screenshot 2026-09-30 181622.png
+C:\Users\mveil\OneDrive\Desktop\Frontend-Mentor\recipe-page-main\screenshots\Screenshot 2026-09-30 181647.png
  
-![alt text](<Screenshot 2026-09-30 181622.png>)
-![alt text](<Screenshot 2026-09-30 181647.png>)
+
  
 ### Links
  
