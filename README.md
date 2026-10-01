@@ -32,6 +32,10 @@ The page includes:
 - Responsive desktop and mobile layouts
  
 ### Screenshot
+<img width="570" height="380" alt="Screenshot 2026-09-30 193621" src="https://github.com/user-attachments/assets/8ff8df4b-ff6e-4c27-86f6-3edbdb2c79e5" />
+
+<img width="557" height="330" alt="Screenshot 2026-09-30 193659" src="https://github.com/user-attachments/assets/fee11150-7ad3-4031-af5b-e0549eee4063" />
+
 
 ### Links
  
